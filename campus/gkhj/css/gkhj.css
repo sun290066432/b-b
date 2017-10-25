@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+/*CSS reset*/
+.container{
+	max-width:1000px;
+	min-width:400px;
+	margin:40px auto 0 auto;
+}
+
+.container .main{width:100%; margin:0 auto 221px auto;}
+.slider7,.bx-default-pager{display:none;}
+.container .main aside{width:265px; border-right:1px solid #bbb; float:left;}
+.container .main aside a{
+	width:250px;
+	margin-right:15px;
+	display:block;
+	height:77px;
+	line-height:77px;
+	border-bottom:3px solid #fff;
+	color:#222;
+	font-size:22px;
+	text-indent:90px;	
+	}
+.container .main aside a:hover{
+	border-bottom-color:#fa9634;
+}
+.container .main aside a:first-of-type{background:url(../images/campus1-2.gif) no-repeat 8.5471% center; background-size:16%;}
+.container .main aside a:nth-of-type(2){background:url(../images/campus2-2.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(3){background:url(../images/campus3-2.gif) no-repeat 8.5471% center;background-size:16%;}   
+.container .main aside a:nth-of-type(4){background:url(../images/campus4-2.gif) no-repeat 8.5471% center;background-size:16%;} 
+.container .main aside a:nth-of-type(5){background:url(../images/campus5-1.gif) no-repeat 8.5471% center;background-size:16%; border-color:#fa9634;}   
+.container .main aside a:nth-of-type(6){background:url(../images/campus6-2.gif) no-repeat 8.5471% center;background-size:16%;} 
+
+.container .main aside a:first-of-type:hover{background:url(../images/campus1-1.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(2):hover{background:url(../images/campus2-1.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(3):hover{background:url(../images/campus3-1.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(4):hover{background:url(../images/campus4-1.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(5):hover{background:url(../images/campus5-1.gif) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(6):hover{background:url(../images/campus6-1.gif) no-repeat 8.5471% center;background-size:16%;}
+
+
+.container .main section{
+	padding-left: 42px;
+    width: 680px;
+    float: left;
+}
+.container .main section .c{display: block;}
+.container .main section p{
+	font-size: 16px;
+    line-height: 30px;
+    text-indent: 32px;
+}
+.container .main section p:first-of-type{margin-top:33px;}
+
+
+
+@media only screen and (min-width:720px ) and (max-width:1000px){
+	.container .main{width:96%; padding:0 2%; margin-bottom:90px;}
+	.slider7,.bx-default-pager{display:block;}
+	.container .main aside{width:28%;}
+	.container .main aside a{width:94.696%; padding-right:0.4%; text-indent:34%; font-size:20px;}
+	.container .main section{width:64%; padding-left:6.94%;}
+	.container .main section div.c{display:none;}
+}
+
+@media only screen and (min-width:480px ) and (max-width:720px){
+	.container{margin-top:20px;}
+	.slider7,.bx-default-pager{display:block;}
+	.container .main{width:96%; padding:0 2%; margin-bottom:50px;}
+	.container .main aside{width:100%; border:none;  margin-bottom:25px;}
+	
+	
+	.container .main aside a{
+		width:33%; 
+		text-indent:0;
+		text-align:center; 
+		float:left; 
+		margin-right:0; 
+		padding-right:0; 
+		height:90px; 
+		line-height:140px;
+		font-size:18px;
+		border:0;
+	}
+	
+	.container .main aside a:first-of-type{background:url(../images/campus1-2.gif) no-repeat center 0; background-size:22%;}
+	.container .main aside a:nth-of-type(2){background:url(../images/campus2-2.gif) no-repeat center 15px;background-size:22%;}
+	.container .main aside a:nth-of-type(3){background:url(../images/campus3-2.gif) no-repeat center 0;background-size:22%;}   
+	.container .main aside a:nth-of-type(4){background:url(../images/campus4-2.gif) no-repeat center 0;background-size:22%;} 
+	.container .main aside a:nth-of-type(5){background:url(../images/campus5-1.gif) no-repeat center 10px;background-size:22%;}   
+	.container .main aside a:nth-of-type(6){background:url(../images/campus6-2.gif) no-repeat center 0;background-size:18%;} 
+	
+	.container .main aside a:first-of-type:hover{background:url(../images/campus1-1.gif) no-repeat center 0;background-size:22%;}
+	.container .main aside a:nth-of-type(2):hover{background:url(../images/campus2-1.gif) no-repeat center 15px;background-size:22%;}
+	.container .main aside a:nth-of-type(3):hover{background:url(../images/campus3-1.gif) no-repeat center 0;background-size:22%;}
+	.container .main aside a:nth-of-type(4):hover{background:url(../images/campus4-1.gif) no-repeat center 0;background-size:22%;}
+	.container .main aside a:nth-of-type(5):hover{background:url(../images/campus5-1.gif) no-repeat center 10px;background-size:22%;}
+	.container .main aside a:nth-of-type(6):hover{background:url(../images/campus6-1.gif) no-repeat center 0;background-size:18%;}
+
+	
+	.container .main section{width:100%; padding:0;margin-bottom:44px;}
+	.container .main section div.c{display:none;}
+	.container .main section h4{font-size:16px;}
+	.container .main section p{font-size:16px;}
+	
+}
+
+@media only screen and (max-width:480px ){
+	.container{margin-top:20px;}
+	.slider7,.bx-default-pager{display:block;}
+	.container .main{width:96%; padding:0 2%; margin-bottom:50px;}
+	.container .main aside{width:100%; border:none;  margin-bottom:25px;}
+	
+	.container .main aside a{
+		width:33%; 
+		text-indent:0;
+		text-align:center; 
+		float:left; 
+		margin-right:0; 
+		padding-right:0; 
+		height:90px; 
+		line-height:140px;
+		font-size:18px;
+		border:0;
+	}
+	
+	.container .main aside a:first-of-type{background:url(../images/campus1-2.gif) no-repeat center 0; background-size:33%;}
+	.container .main aside a:nth-of-type(2){background:url(../images/campus2-2.gif) no-repeat center 15px;background-size:33%;}
+	.container .main aside a:nth-of-type(3){background:url(../images/campus3-2.gif) no-repeat center 0;background-size:36%;}   
+	.container .main aside a:nth-of-type(4){background:url(../images/campus4-2.gif) no-repeat center 5px;background-size:34%;} 
+	.container .main aside a:nth-of-type(5){background:url(../images/campus5-1.gif) no-repeat center 10px;background-size:33%;}   
+	.container .main aside a:nth-of-type(6){background:url(../images/campus6-2.gif) no-repeat center 0;background-size:25%;} 
+	
+	.container .main aside a:first-of-type:hover{background:url(../images/campus1-1.gif) no-repeat center 0;background-size:33%;}
+	.container .main aside a:nth-of-type(2):hover{background:url(../images/campus2-1.gif) no-repeat center 15px;background-size:33%;}
+	.container .main aside a:nth-of-type(3):hover{background:url(../images/campus3-1.gif) no-repeat center 0;background-size:36%;}
+	.container .main aside a:nth-of-type(4):hover{background:url(../images/campus4-1.gif) no-repeat center 5px;background-size:34%;}
+	.container .main aside a:nth-of-type(5):hover{background:url(../images/campus5-1.gif) no-repeat center 10px;background-size:33%;}
+	.container .main aside a:nth-of-type(6):hover{background:url(../images/campus6-1.gif) no-repeat center 0;background-size:25%;}
+
+	
+	.container .main section{width:100%; padding:0;margin-bottom:44px;}
+	.container .main section div.c{display:none;}
+	.container .main section h4{font-size:16px;}
+	.container .main section p{font-size:14px;}
+	.container .main section{width:100%; padding:0; margin-bottom:44px;}
+	.container .main section div.c{display:none;}
+	.container .main section p{font-size:14px;}
+}

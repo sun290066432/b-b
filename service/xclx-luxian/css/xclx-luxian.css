@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+/*CSS reset*/
+.container{
+	max-width:1000px;
+	min-width:400px;
+	margin:40px auto 0 auto;
+}
+
+.container .main{width:100%; margin:0 auto 86px auto;}
+.container .main aside{width:265px; border-right:1px solid #bbb; float:left;}
+.container .main aside a{
+	width:250px;
+	margin-right:15px;
+	display:block;
+	height:77px;
+	line-height:77px;
+	border-bottom:3px solid #fff;
+	color:#222;
+	font-size:22px;
+	text-indent:90px;	
+	}
+.container .main aside a:hover{
+	border-bottom-color:#fa9634;
+}
+.container .main aside a:first-of-type{background:url(../images/service_1_1.jpg) no-repeat 8.5471% center; background-size:16%;}
+.container .main aside a:nth-of-type(2){background:url(../images/service_2_1.jpg) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(3){background:url(../images/service_3_1.jpg) no-repeat 8.5471% center;background-size:16%;}   
+.container .main aside a:nth-of-type(4){background:url(../images/service_4_2.jpg) no-repeat 8.5471% center;background-size:16%; border-color:#fa9634;} 
+
+.container .main aside a:first-of-type:hover{background:url(../images/service_1_2.jpg) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(2):hover{background:url(../images/service_2_2.jpg) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(3):hover{background:url(../images/service_3_2.jpg) no-repeat 8.5471% center;background-size:16%;}
+.container .main aside a:nth-of-type(4):hover{background:url(../images/service_4_2.jpg) no-repeat 8.5471% center;background-size:16%;}
+
+
+.container .main section{
+	padding-left:45px;
+	width:685px;
+	float:left;
+}
+.container .main section h4{
+	font-size: 18px;
+	color: #fa9634;	
+	font-weight:bold;
+	margin-top:13px;
+}
+.container .main section ul li{
+    margin-top: 13px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #222;
+}
+
+
+.container .main section p{
+	margin-top: 7px;
+    line-height: 27px;
+    font-size: 16px;
+    color: #222;
+}
+
+
+
+
+
+/*.container .main section div{margin-bottom:24px; margin-top:22px}*/
+.container .main section div:first-of-type{margin-top:24px; margin-bottom:31px;}
+.container .main section div:last-of-type{margin-top:22px;}
+
+.container .main section div img{display: block;}
+
+
+
+@media only screen and (min-width:720px ) and (max-width:1000px){
+	.container .main{width:96%; padding:0 2%; margin-bottom:90px;}
+	.container .main aside{width:28%;}
+	.container .main aside a{width:94.696%; padding-right:0.4%; text-indent:34%; font-size:20px;}
+	.container .main section{width:64%; padding-left:6.94%;}
+}
+
+@media only screen and (min-width:480px ) and (max-width:720px){
+	.container{margin-top:20px;}
+	.container .main{width:96%; padding:0 2%; margin-bottom:50px;}
+	.container .main aside{width:100%; border:none;  margin-bottom:25px;}
+	
+	
+	.container .main aside a{
+		width:50%; 
+		text-indent:0;
+		text-align:center; 
+		float:left; 
+		margin-right:0; 
+		padding-right:0; 
+		height:90px; 
+		line-height:140px;
+		font-size:18px;
+		border:0;
+	}
+	.container .main aside a:first-of-type{background:url(../images/service_1_1.jpg) no-repeat center 0; background-size:16%;}
+	.container .main aside a:nth-of-type(2){background:url(../images/service_2_1.jpg) no-repeat center 0;background-size:16%;}
+	.container .main aside a:nth-of-type(3){background:url(../images/service_3_1.jpg) no-repeat center 0;background-size:16%;}   
+	.container .main aside a:nth-of-type(4){background:url(../images/service_4_2.jpg) no-repeat center 0;background-size:16%;} 
+	
+	.container .main aside a:first-of-type:hover{background:url(../images/service_1_2.jpg) no-repeat center 0;background-size:16%;}
+	.container .main aside a:nth-of-type(2):hover{background:url(../images/service_2_2.jpg) no-repeat center 0;background-size:16%;}
+	.container .main aside a:nth-of-type(3):hover{background:url(../images/service_3_2.jpg) no-repeat center 0;background-size:16%;}
+	.container .main aside a:nth-of-type(4):hover{background:url(../images/service_4_2.jpg) no-repeat center 0;background-size:16%;}
+
+	
+	.container .main section{width:100%; padding:0;margin-bottom:44px;}
+	.container .main section h4{font-size:16px;}
+	.container .main section p{font-size:14px;}
+	
+}
+
+@media only screen and (max-width:480px ){
+	.container{margin-top:20px;}
+	.container .main{width:96%; padding:0 2%; margin-bottom:50px;}
+	.container .main aside{width:100%; border:none;  margin-bottom:25px;}
+	
+	.container .main aside a{width:50%; text-indent:18.7%; float:left; margin-right:0; padding-right:0; height:60px; line-height:60px; font-size:18px;}
+	
+	.container .main section{width:100%; padding:0; margin-bottom:44px;}
+	.container .main section p{font-size:14px;}
+	
+	
+}
